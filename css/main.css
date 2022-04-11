@@ -141,7 +141,7 @@ body{
 }
 
 @font-face {
-	font-family: iranyekanextreabold;
+	font-family: iranyekanexterabold;
 	font-style: normal;
 	font-weight: 800;
 	src:url('../fonts/woff/IRANYekanWebExtraBold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
@@ -360,6 +360,10 @@ a{
   text-decoration:none;  
 }
 
+ul{
+  list-style:none; 
+}
+
 /*header*/
 .top-header-info{
    line-height:48px;
@@ -387,7 +391,7 @@ a{
   border-radius: 21px;
   background-color:#eeeeee;
 }
-.main-menu-form-box::placeholder {
+.form-control-extera::placeholder{
 color:#9e9e9e;
 font-size: 12px;
 font-family: iranyekanregular;
@@ -646,12 +650,68 @@ margin: 6rem 0;
    }
    .discount-det p:nth-child(2){
     color:#212121;
-    font: 46px/78px iranyekanextersbold;
+    font: 46px/78px iranyekanexterabold;
     padding-bottom: 1rem;
     margin-bottom: 0!important;
   }
 
+/*brands*/
+.brands{
+margin:6rem 0;
+  
+}
+/*footer*/
 
+.main-footer{
+
+}
+.top-footer{
+  background-color: #FAFAFA;
+  padding:50px 0;
+
+}
+.list-footer{
+  padding:0;
+ }
+ .subject-guide-footer{
+  color: #212121;
+  font: 16px/21px iranyekanbold;
+  padding-left: 0;
+  margin-bottom: 1.5rem;
+ }
+
+.list-footer li, .social-media-footer p:nth-child(1){
+  color: #212121;
+  font: 14px/19px iranyekanregular;
+ padding-bottom:1rem;
+
+}
+
+.list-footer a{
+  color:#424242;
+}
+
+.approved-footer li{
+  padding-left:1rem;
+}
+.bottom-footer{
+  background-color: #F5F5F5;
+}
+.text-box-footer p:nth-child(2), .text-copyright p{
+  color: #424242;
+  font: 12px/23px iranyekanregular;
+ padding-bottom:1rem;
+}
+.social-media-footer p{
+text-align: center;
+padding-top: 4rem;
+}
+.text-copyright{
+  padding-top: 1rem;
+  margin-top: 2rem;
+  border-top: 0.5px solid #e0e0e0;
+  text-align: center;
+}
 
 
 /* ==========================================================================
